@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Box = styled.div`
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 
     height: 100vh;
@@ -16,7 +17,7 @@ export const Box = styled.div`
 
         gap: 0.5rem;
 
-        width: 15%;
+        width: 50vw;
         height: 50vh;
     }
 
